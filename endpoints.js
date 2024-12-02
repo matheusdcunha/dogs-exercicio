@@ -4,8 +4,6 @@
 
 // https://dogsapi.origamid.dev/json/
 
-
-
 //ENDPOINTS
 const USER_POST = {
   endpoint: '/api/user',
