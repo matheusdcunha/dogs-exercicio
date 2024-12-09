@@ -38,7 +38,6 @@ const UserPhotoPost = () => {
       preview: URL.createObjectURL(target.files[0]),
       raw: target.files[0],
     });
-    console.log(img.preview);
   }
 
   return (

@@ -12,7 +12,6 @@ const FeedPhotoItem = ({photo, setModalPhoto}) => {
     <li className={styles.photo} onClick={handleClick}>
       <img src={photo.src} alt={photo.title}/>
       <span className={styles.visualizacao}>{photo.acessos}</span>
-      {console.log("AQUI")}
     </li>
   )
 }
